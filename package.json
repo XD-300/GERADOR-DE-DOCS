@@ -1,13 +1,15 @@
 {
   "name": "gerador-de-docs",
   "version": "1.0.0",
-  "description": "Projeto base com Python e Node para gerar documentos e servir site estatico.",
+  "description": "Ambiente multi-stack para edição de arquivos",
   "type": "module",
   "scripts": {
     "start": "node web/server.js",
     "dev": "node web/server.js"
   },
   "dependencies": {
-    "axios": "1.7.7"
+    "axios": "1.7.7",
+    "express": "4.19.2",
+    "multer": "1.4.5-lts.1"
   }
 }
