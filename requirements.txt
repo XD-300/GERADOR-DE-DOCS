@@ -1,3 +1,13 @@
+# Manipulação de documentos
 python-docx==1.1.2
+openpyxl==3.1.5
+reportlab==4.2.2
+
+# Templates e automação
 jinja2==3.1.4
 pydantic==2.8.2
+pandas==2.2.2
+
+# PDF → DOCX, conversões
+pdfplumber==0.11.0
+PyPDF2==3.0.1
